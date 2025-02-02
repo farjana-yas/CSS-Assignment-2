@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(58, 58, 99);
+    color: white;
+}
+
+.centre{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50% );
+color: #f8f3f3;
+
+}
+.slider{
+    background: url(/src/band\ 2.jpeg);
+    background-size:cover ;
+    height: 350px;
+    width: 800px;
+    box-shadow: 0px 5px 8px rgba(0,0,0,.3);
+    animation: animate 8s infinite;
+    margin-top: 30px;
+    color: aliceblue;
+    
+
+}
+@keyframes animate{
+    50%{
+        background: url(/src/band\ 2.jpeg);
+        background-size: cover;
+
+    }
+    100%{
+        background: url(/src/band\ pp.jpg);
+        background-size: cover;
+    }
+}
+
+.banner {
+  /* background: url("/src/band\ 2.jpeg") no-repeat;*/
+   background-size: cover;
+
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar {
+    background: black;
+    padding: 10px;
+    margin-bottom: 30px;
+
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.band {
+    padding: 20px;
+}
+
+.band-members {
+    display: flex;
+    justify-content: center;
+}
+
+.member {
+    margin: 10px;
+}
+
+.member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.tour {
+    background: black;
+    color: white;
+    padding: 20px;
+}
+
+.tour-box {
+    display: flex;
+    justify-content: center;
+}
+
+.tour-item {
+    margin: 10px;
+}
+
+.tour-item img {
+    width: 200px;
+    height: 150px;
+}
+
+.contact {
+    padding: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+.contact input, .contact textarea {
+    margin: 5px;
+    padding: 10px;
+}
+
+.location img{
+height: 250px;
+width: 70%;
+margin-bottom: 10px;
+}
+
+.footer {
+    background: black;
+    color: white;
+    padding: 10px;
+}
+button{
+    background-color: rgb(244, 143, 125);
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: skyblue;
+}
+
+@media (max-width:768px) {
+    .tour-item{
+        flex-direction: column;
+        align-items: center;
+    }
+}
