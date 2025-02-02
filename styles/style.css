@@ -21,7 +21,7 @@ color: #f8f3f3;
     height: 350px;
     width: 800px;
     box-shadow: 0px 5px 8px rgba(0,0,0,.3);
-    animation: animate 8s infinite;
+    animation: animate 5s infinite;
     margin-top: 30px;
     color: aliceblue;
     
@@ -151,8 +151,9 @@ button:hover{
 }
 
 @media (max-width:768px) {
-    .tour-item{
+    .tour-item .tour{
         flex-direction: column;
         align-items: center;
     }
+    
 }
