@@ -23,7 +23,7 @@ color: #f8f3f3;
 
 }
 .slider{
-    background: url("/src/band 2.jpeg");
+    background: url("./src/band 2.jpeg");
     background-size:cover ;
     height: 350px;
     width: 800px;
@@ -36,12 +36,12 @@ color: #f8f3f3;
 }
 @keyframes animate{
     50%{
-        background: url("/src/band 2.jpeg");
+        background: url("./src/band 2.jpeg");
         background-size: cover;
 
     }
     100%{
-        background: url("/src/band pp.jpg");
+        background: url("./src/band pp.jpg");
         background-size: cover;
     }
 }
