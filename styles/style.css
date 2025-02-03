@@ -1,10 +1,17 @@
-body {
-    font-family: Arial, sans-serif;
+/**{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}*/
+
+
+body {
+    font-family: Arial, sans-serif;
     text-align: center;
-    background-color: rgb(58, 58, 99);
+    background-color: rgb(33, 33, 64);
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .centre{
@@ -16,7 +23,7 @@ color: #f8f3f3;
 
 }
 .slider{
-    background: url("/src/band\ 2.jpeg");
+    background: url("/src/band 2.jpeg");
     background-size:cover ;
     height: 350px;
     width: 800px;
@@ -29,18 +36,18 @@ color: #f8f3f3;
 }
 @keyframes animate{
     50%{
-        background: url("/src/band\ 2.jpeg");
+        background: url("/src/band 2.jpeg");
         background-size: cover;
 
     }
     100%{
-        background: url("/src/band\ pp.jpg");
+        background: url("/src/band pp.jpg");
         background-size: cover;
     }
 }
 
 .banner {
-   /*background: url("/src/band\ 2.jpeg") no-repeat;*/
+  /* background: url("/src/band\ 2.jpeg") no-repeat;*/
    background-size: cover;
 
     height: 300px;
