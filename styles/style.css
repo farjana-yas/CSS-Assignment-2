@@ -57,12 +57,12 @@ color: #f8f3f3;
     flex-direction: column;
     justify-content: center;
 }
-.centre-slider{
-    background: url("/src/band 2.jpeg");
-    height: 350px;
-    width: 80%;
-    margin-left: 100px;
-    background-size:cover ;
+.centre-slider img{
+   /* background: url("/src/band 2.jpeg");*/
+    height: 360px;
+    width: 90%;
+
+
 }
 .navbar {
     background: black;
