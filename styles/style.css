@@ -14,7 +14,7 @@ body {
     padding: 0;
 }
 
-.centre{
+/*.centre{
 position: absolute;
 top: 50%;
 left: 50%;
@@ -44,26 +44,26 @@ color: #f8f3f3;
         background: url("/src/band pp.jpg");
         background-size: cover;
     }
-}
+}*/
 
 .banner {
    /*background: url("/src/band\ 2.jpeg") no-repeat;*/
    background-size: cover;
 
-    height: 300px;
-    padding: 20px;
+    height: 30px;
+    padding: 10px;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-/*.centre-slider{
+.centre-slider{
     background: url("/src/band 2.jpeg");
     height: 350px;
     width: 80%;
     margin-left: 100px;
     background-size:cover ;
-}*/
+}
 .navbar {
     background: black;
     padding: 10px;
