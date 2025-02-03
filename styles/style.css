@@ -23,28 +23,28 @@ color: #f8f3f3;
 
 }
 .slider{
-    background: url("./src/band 2.jpeg");
+    background: url("/src/band 2.jpeg");
     background-size:cover ;
     height: 350px;
     width: 800px;
     box-shadow: 0px 5px 8px rgba(0,0,0,.3);
-    animation: animate 9s infinite;
+    animation: slideshow 9s infinite;
     margin-top: 30px;
     color: aliceblue;
     
 
 }
-@keyframes animate{
+/*@keyframes slideshow{
     50%{
-        background: url("./src/band 2.jpeg");
+        background: url("/src/band 2.jpeg");
         background-size: cover;
 
     }
     100%{
-        background: url("./src/band pp.jpg");
+        background: url("/src/band pp.jpg");
         background-size: cover;
     }
-}
+}*/
 
 .banner {
   /* background: url("/src/band\ 2.jpeg") no-repeat;*/
